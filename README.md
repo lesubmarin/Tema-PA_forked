@@ -20,8 +20,5 @@ Am folosit functia de la taskul 1 care scrie in fisierul de iesire echipele, dup
 ## Taskul 4
 Am adaugat o variabila in cadrul functiei task3 care afla cu ajutorul unei functii cate echipe se afla in acel moment in lista de castigatori, iar daca acel numar este 8, copiez lista aceea intr-una temporara, BSTList, si transmit ca parametru capul acelei liste. Urmand ca acea lista BSTList sa o copiez intr-un arbore BST. Pentru a scrie in fisierul de iesire, am apelat o functie care imi scrie in inordine inversa, adica descrescator in functie de punctajele echipelor.
 
-# Concluzie
-Parerea mea asupra temei este ca a fost bine realizata, reusind sa atinga fiecare capitol de la curs si sa valorifice si intareasca cunostintele cultivate in tot acest timp.
-
 
 Iftene Cristian-Dan, ACS - IS, 313AA
