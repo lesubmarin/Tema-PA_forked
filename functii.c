@@ -488,7 +488,7 @@ void writeQueueToFile(Queue* queue, char* filePathOutput, List *head, int round)
     FILE* file = fopen(filePathOutput, "a");
     if(file == NULL){
         puts("Eroare");
-        exit(1);
+        exit(-1);
     }
     QueueNode *currentNode = queue->front;
     fprintf(file, "\n--- ROUND NO:%d\n", round);
