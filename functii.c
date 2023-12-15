@@ -124,7 +124,7 @@ void writeTeamsToFile(List *head, char* filePathOutput)
     FILE *file = fopen(filePathOutput, "wt");
     if(file == NULL){
         printf("Eroare");
-        exit(1);
+        exit(-1);
     }
 
     List* currentNode = head;
