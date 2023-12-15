@@ -274,7 +274,7 @@ void task4(BSTList* headBST, char* filePathOutput)
     FILE* file = fopen(filePathOutput, "a");
     if(file == NULL){
         puts("Eroare");
-        exit(1);
+        exit(-1);
     }
     // Copiez lista creata anterior intr-un BST
     BST* root = copyListToBST(headBST);
